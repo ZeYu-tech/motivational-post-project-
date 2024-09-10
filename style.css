@@ -1,0 +1,39 @@
+/* 设置页面字体，背景颜色和文本颜色 */
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 页面高度为100%，使内容居中 */
+  }
+  
+  /* 容器样式：居中对齐 */
+  .container {
+    width: 50%; /* 宽度为页面的50% */
+    margin-left: 25%; /* 通过设置左边距25%来水平居中 */
+    text-align: center; /* 内容居中对齐 */
+  }
+  
+  /* h1标题样式 */
+  h1 {
+    font-size: 2.5em;
+    text-transform: uppercase; /* 将标题文本变为大写 */
+    margin-top: 20px;
+  }
+  
+  /* p段落样式 */
+  p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* 图片样式 */
+  .motivational-img {
+    width: 100%; /* 图片填满容器 */
+    border: 5px solid white; /* 添加5px白色边框 */
+  }
+  
